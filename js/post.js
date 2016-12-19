@@ -2,7 +2,7 @@ $(function() {
     $('pre').addClass('prettyprint linenums'); //添加Google code Hight需要的class
 
     window.disqus_shortname = 'wan9dj'; // required: replace example with your forum shortname
-    $('#disqus_container')&&$.getScript('http://' + disqus_shortname + '.disqus.com/embed.js',function(){ console.log('load comment down')});
+    $('#disqus_container')&&$.getScript('https://' + disqus_shortname + '.disqus.com/embed.js',function(){ console.log('load comment down')});
     // $('#disqus_container .comment').on('click',function(){
     //     $(this).html('加载中...');
     //     var that = this;
