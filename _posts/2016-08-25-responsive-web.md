@@ -1,6 +1,6 @@
 ---
-layout:     post
-title:      自适应解决方案(个人资料整理)
+layout: post
+title: 自适应解决方案(个人资料整理)
 category: blog
 description: 个人的解决方案大都是使用通过页面制作的时候计算页面与psd图的比例不同来计算元素尺寸，所以我的首要任务就是计算屏幕宽度，还有页面宽度与psd图之间的比例。
 ---

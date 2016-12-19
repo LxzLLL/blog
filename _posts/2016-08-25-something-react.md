@@ -1,6 +1,6 @@
 ---
-layout:     post
-title:      React部分知识与理解
+layout: post
+title: React部分知识与理解
 category: blog
 description: react的无状态组件,mixins,高阶组件的理解
 ---
