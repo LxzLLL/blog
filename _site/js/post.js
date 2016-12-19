@@ -2,7 +2,7 @@ $(function() {
     $('pre').addClass('prettyprint linenums'); //添加Google code Hight需要的class
 
     window.disqus_shortname = 'wan9dj'; // required: replace example with your forum shortname
-    $.getScript('http://' + disqus_shortname + '.disqus.com/embed.js',function(){ console.log('load comment done')});
+    $.getScript('http://' + disqus_shortname + '.disqus.com/embed.js',function(){$(that).remove()});
     // $('#disqus_container .comment').on('click',function(){
     //     $(this).html('加载中...');
     //     var that = this;
@@ -13,7 +13,7 @@ $(function() {
         var href = $(this).attr('href');
         if(href){
             if(href.indexOf('#') == 0){
-            // }else if ( href.indexOf('/') == 0 || href.toLowerCase().indexOf('beiyuu.com')>-1 ){
+            }else if ( href.indexOf('/') == 0 || href.toLowerCase().indexOf('beiyuu.com')>-1 ){
             }else if ($(element).has('img').length){
             }else{
                 $(this).attr('target','_blank');
