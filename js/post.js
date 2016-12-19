@@ -22,7 +22,7 @@ $(function() {
         }
     });
 
-    $.getScript('/js/prettify/prettify.js',function(){
+    $.getScript('./js/prettify/prettify.js',function(){
         prettyPrint();
     });
 
